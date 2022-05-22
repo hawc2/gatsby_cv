@@ -1,7 +1,7 @@
 require(`dotenv`).config()
 
 module.exports = {
-  pathPrefix: "hawc2.github.io/gatsby_cv",
+  pathPrefix: "hawc2.github.io/gatsby_cv/",
 }
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
@@ -26,9 +26,9 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
-          { name: `About`, slug: `/about` },
+          { name: `Projects`, slug: `/gatsby_cv/projects` },
+          { name: `Art`, slug: `/gatsby_cv/art` },
+          { name: `About`, slug: `/gatsby_cv/about` },
         ],
       },
     },
