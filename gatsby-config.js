@@ -29,6 +29,7 @@ module.exports = {
           { name: `Projects`, slug: `/gatsby_cv/projects` },
           { name: `Art`, slug: `/gatsby_cv/art` },
           { name: `About`, slug: `/gatsby_cv/about` },
+          { name: `Dramaturgy`, slug: `/gatsby_cv/dramaturgy` },
         ],
       },
     },
