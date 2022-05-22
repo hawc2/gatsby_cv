@@ -1,3 +1,9 @@
+.DS_Store
+.cache
+.vscode
+public
+node_modules
+
 # Logs
 logs
 *.log
